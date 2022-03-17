@@ -1,2 +1,2 @@
-from .parser import xml_to_df
+from .parser import read_xml
 
