@@ -1,4 +1,6 @@
+.idea
 venv
 example.py
-.idea
-idea
+pandasxml.egg-info
+dist
+build
