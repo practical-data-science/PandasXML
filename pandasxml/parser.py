@@ -73,5 +73,6 @@ def read_xml(url, element_name='item'):
                 else:
                     row[element] = ''
 
-            df = pd.concat([df, pd.DataFrame.from_records([row])])
+            df = df.append(row, ignore_index=True)
+
         return df
