@@ -8,7 +8,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='pandasxml',
     packages=['pandasxml'],
-    version='0.01',
+    version='0.01.1',
     license='MIT',
     description='PandasXML is a Python package that imports data from remote XML files into Pandas dataframes, so they can be manipulated or exported to other file formats, such as CSV. ',
     long_description=long_description,
